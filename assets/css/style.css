@@ -1,0 +1,35 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+.container{
+    display: flex;
+    color: white;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(4, 111, 4);
+    border-color: black;
+    border-radius: 30px;
+    margin: 50px;
+}
+#button{
+    width: 100px;
+    background-color: rgb(245, 222, 45);
+    border-radius: 10px;
+}
+
+.total{
+    display:flex;
+    align-items: center;
+    color: black;
+}
+
+#finalColor{
+    width: 20px;
+    height: 20px;
+    border-color: black;
+    border-radius: 50%;
+}
